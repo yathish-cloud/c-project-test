@@ -1,5 +1,5 @@
-ABC.exe:main.o big3.o fact.c
-	gcc -o ABC.exe main.o big3.o fact.o 
+test.exe:main.o big3.o fact.c
+	gcc -o test.exe main.o big3.o fact.o 
 main.o:main.c
 	gcc -c main.c
 big3.o:big3.c
